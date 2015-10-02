@@ -16,6 +16,8 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'bootstrap-sass'
 # Use Devise for authentication
 gem 'devise', '~> 3.5.2'
+# Use Paperclip for Pins
+gem 'paperclip', '~> 4.3.1'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
