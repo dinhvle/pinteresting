@@ -1,13 +1,13 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700);
 
 
-$body-bg: 							#ecf0f1;
-$font-family-sans-serif: 			'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-$navbar-height:                    	45px;
+$body-bg:                           #ecf0f1;
+$font-family-sans-serif:            'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$navbar-height:                     45px;
 $navbar-default-bg:                	white;
 $navbar-default-brand-color:       	#d35400;
 $brand-primary:                    	#d35400;
-$jumbotron-bg:                     	white;
+$jumbotron-bg:                      white;
 
 @import 'bootstrap-sprockets';
 @import 'bootstrap';

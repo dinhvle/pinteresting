@@ -18,6 +18,8 @@ gem 'bootstrap-sass'
 gem 'devise', '~> 3.5.2'
 # Use Paperclip for Pins
 gem 'paperclip', '~> 4.3.1'
+# Use Amazon AWS to store images for Heroku
+gem 'aws-sdk', '< 2.0'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
@@ -55,4 +57,3 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 end
-
