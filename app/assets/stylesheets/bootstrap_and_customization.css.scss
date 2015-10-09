@@ -1,21 +1,22 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700);
-
+@import url(https://fonts.googleapis.com/css?family=Lobster);
 
 $body-bg:                           #ecf0f1;
 $font-family-sans-serif:            'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $navbar-height:                     45px;
-$navbar-default-bg:                	white;
-$navbar-default-brand-color:       	#d35400;
-$brand-primary:                    	#d35400;
-$jumbotron-bg:                      white;
+$navbar-default-bg:                	#FFFFFF;
+$navbar-default-brand-color:       	#FF6600;
+$brand-primary:                    	#FF6600;
+$jumbotron-bg:                      #FFFFFF;
 
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
 
 .center {
-     text-align: center;
+  text-align: center;
 }
 
 .navbar-brand {
-     font-weight: bold;
+  font-family: Lobster;
+  font-weight: bold;
 }
